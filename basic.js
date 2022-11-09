@@ -11,3 +11,8 @@ isInstalled = false;
 //array 
 let hobbies;
 hobbies = ['Sports', 'Cooking'];
+let person;
+person = {
+    name: 'Shakil',
+    age: 32
+};

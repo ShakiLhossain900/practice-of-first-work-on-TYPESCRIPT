@@ -22,3 +22,11 @@ isInstalled = false;
 let hobbies : string[];
 
 hobbies =['Sports', 'Cooking'];
+
+
+let person;
+
+person={
+    name: 'Shakil',
+    age: 32
+};
