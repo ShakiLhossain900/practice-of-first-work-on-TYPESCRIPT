@@ -8,3 +8,6 @@ userName = 'shakil hossain';
 let isInstalled;
 isInstalled = false;
 // let's write complex type
+//array 
+let hobbies;
+hobbies = ['Sports', 'Cooking'];

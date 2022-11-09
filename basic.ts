@@ -14,4 +14,11 @@ let isInstalled : boolean;
 
 isInstalled = false;
 
+
 // let's write complex type
+
+//array 
+
+let hobbies : string[];
+
+hobbies =['Sports', 'Cooking'];
