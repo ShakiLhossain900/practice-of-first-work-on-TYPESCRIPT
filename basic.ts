@@ -24,7 +24,10 @@ let hobbies : string[];
 hobbies =['Sports', 'Cooking'];
 
 
-let person;
+let person: {
+    name : string 
+    age : number
+};
 
 person={
     name: 'Shakil',
