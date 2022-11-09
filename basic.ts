@@ -6,30 +6,40 @@ let age: number;
 
 age = 12;
 
-let userName : string;
+let userName: string;
 
-userName = 'shakil hossain';
+userName = "shakil hossain";
 
-let isInstalled : boolean;
+let isInstalled: boolean;
 
 isInstalled = false;
 
-
 // let's write complex type
 
-//array 
+//array
 
-let hobbies : string[];
+let hobbies: string[];
 
-hobbies =['Sports', 'Cooking'];
-
+hobbies = ["Sports", "Cooking"];
 
 let person: {
-    name : string 
-    age : number
+  name: string;
+  age: number;
 };
 
-person={
-    name: 'Shakil',
-    age: 32
+person = {
+  name: "Shakil",
+  age: 32,
 };
+
+// object with array
+
+let people: {
+  name: string;
+  age: number;
+}[];
+
+people = [
+  { name: "Shakil", age: 32 },
+  { name: "shakil2 ", age: 14 },
+];

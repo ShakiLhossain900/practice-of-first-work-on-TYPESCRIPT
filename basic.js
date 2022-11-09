@@ -4,15 +4,21 @@
 let age;
 age = 12;
 let userName;
-userName = 'shakil hossain';
+userName = "shakil hossain";
 let isInstalled;
 isInstalled = false;
 // let's write complex type
-//array 
+//array
 let hobbies;
-hobbies = ['Sports', 'Cooking'];
+hobbies = ["Sports", "Cooking"];
 let person;
 person = {
-    name: 'Shakil',
-    age: 32
+    name: "Shakil",
+    age: 32,
 };
+// object with array
+let people;
+people = [
+    { name: "Shakil", age: 32 },
+    { name: "shakil2 ", age: 14 },
+];
