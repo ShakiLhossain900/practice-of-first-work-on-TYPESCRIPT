@@ -47,6 +47,6 @@ people = [
 
 
 //  type inference 
-
-let course = 'react the complete guide';
+// union type | ai symbol ta 
+let course: string | number = 'react the complete guide';
 course =2938298

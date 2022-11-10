@@ -23,5 +23,6 @@ people = [
     { name: "shakil2 ", age: 14 },
 ];
 //  type inference 
+// union type | ai symbol ta 
 let course = 'react the complete guide';
 course = 2938298;
