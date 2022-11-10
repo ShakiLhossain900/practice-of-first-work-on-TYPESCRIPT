@@ -35,3 +35,9 @@
 // type alias 
 let hobby;
 hobby = ['rugby', 'football'];
+let person;
+person = {
+    name: 'Shakil',
+    age: 34
+};
+console.log();

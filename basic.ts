@@ -63,3 +63,9 @@ type Person = {
  age: number 
 }
 
+let person: Person;
+ person ={
+  name: 'Shakil',
+  age: 34
+}
+console.log();
