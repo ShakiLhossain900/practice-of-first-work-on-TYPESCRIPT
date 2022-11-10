@@ -74,15 +74,21 @@
 
 
 // Funciotn & types 
- function adding(a:number, b:number) {
-   return a + b;  
- }
+//  function adding(a:number, b:number) {
+//    return a + b;  
+//  }
 
-
-
-
-function print (value : any){
-  console.log(value);   //ata specail value return korbe void 
+// function print (value : any){
+//   console.log(value);   //ata specail value return korbe void 
   
+// }
+
+
+
+
+// generics 
+
+function insertatAtBeginning (array:any[], value:any){
+
 }
 

@@ -46,9 +46,12 @@
 // }
 // console.log();
 // Funciotn & types 
-function adding(a, b) {
-    return a + b;
-}
-function print(value) {
-    console.log(value); //ata specail value return korbe void 
+//  function adding(a:number, b:number) {
+//    return a + b;  
+//  }
+// function print (value : any){
+//   console.log(value);   //ata specail value return korbe void 
+// }
+// generics 
+function insertatAtBeginning(array, value) {
 }
