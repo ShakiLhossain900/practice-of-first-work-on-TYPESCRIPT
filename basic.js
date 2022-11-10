@@ -32,12 +32,19 @@
 // // union type | ai symbol ta 
 // let course: string | number = 'react the complete guide';
 // course =2938298
-// type alias 
-let hobby;
-hobby = ['rugby', 'football'];
-let person;
-person = {
-    name: 'Shakil',
-    age: 34
-};
-console.log();
+// // type alias 
+// let hobby : string[];
+// hobby = ['rugby' , 'football'];
+// type Person = { 
+//  name : string,
+//  age: number 
+// }
+// let person: Person;
+//  person ={
+//   name: 'Shakil',
+//   age: 34
+// }
+// console.log();
+// Funciotn & types 
+function add(a, b) {
+}

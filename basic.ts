@@ -53,19 +53,32 @@
 
 
 
-// type alias 
-let hobby : string[];
+// // type alias 
+// let hobby : string[];
 
-hobby = ['rugby' , 'football'];
+// hobby = ['rugby' , 'football'];
 
-type Person = { 
- name : string,
- age: number 
-}
+// type Person = { 
+//  name : string,
+//  age: number 
+// }
 
-let person: Person;
- person ={
-  name: 'Shakil',
-  age: 34
-}
-console.log();
+// let person: Person;
+//  person ={
+//   name: 'Shakil',
+//   age: 34
+// }
+// console.log();
+
+
+
+
+// Funciotn & types 
+ function add(a,b) {
+  
+ }
+
+
+
+
+
