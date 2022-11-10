@@ -46,5 +46,6 @@
 // }
 // console.log();
 // Funciotn & types 
-function add(a, b) {
+function adding(a, b) {
+    return a + b;
 }

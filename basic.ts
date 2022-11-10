@@ -74,9 +74,10 @@
 
 
 // Funciotn & types 
- function add(a,b) {
-  
+ function adding(a:number, b:number) {
+   return a + b;  
  }
+
 
 
 
