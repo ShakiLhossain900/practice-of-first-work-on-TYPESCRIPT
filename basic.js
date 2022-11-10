@@ -49,3 +49,6 @@
 function adding(a, b) {
     return a + b;
 }
+function print(value) {
+    console.log(value); //ata specail value return korbe void 
+}

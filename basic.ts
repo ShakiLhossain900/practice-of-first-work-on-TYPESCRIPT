@@ -81,5 +81,8 @@
 
 
 
-
+function print (value : any){
+  console.log(value);   //ata specail value return korbe void 
+  
+}
 
