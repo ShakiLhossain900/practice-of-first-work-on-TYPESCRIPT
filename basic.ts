@@ -86,17 +86,19 @@
 
 
 
-// generics 
+// // generics 
 
-function insertatAtBeginning (array:any[], value:any){
-const newArray = [value, ...array];
-return newArray;
-}
+// function insertatAtBeginning <T> (array:T[], value:T){
+// const newArray = [value, ...array];
+// return newArray;
+// }
 
-const demoArray = [1,2,3,4,5,6];
+// const demoArray = [1,2,3,4,5,6];
 
-const updatedArray = insertatAtBeginning(demoArray,-1)
+// const updatedArray = insertatAtBeginning(demoArray,-1)
+// const stringArray = insertatAtBeginning(['a','b','c'],'d')
 
-console.log(updatedArray);
+// console.log(updatedArray);
+// console.log(stringArray);
 
 

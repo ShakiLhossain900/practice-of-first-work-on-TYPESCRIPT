@@ -52,11 +52,13 @@
 // function print (value : any){
 //   console.log(value);   //ata specail value return korbe void 
 // }
-// generics 
-function insertatAtBeginning(array, value) {
-    const newArray = [value, ...array];
-    return newArray;
-}
-const demoArray = [1, 2, 3, 4, 5, 6];
-const updatedArray = insertatAtBeginning(demoArray, -1);
-console.log(updatedArray);
+// // generics 
+// function insertatAtBeginning <T> (array:T[], value:T){
+// const newArray = [value, ...array];
+// return newArray;
+// }
+// const demoArray = [1,2,3,4,5,6];
+// const updatedArray = insertatAtBeginning(demoArray,-1)
+// const stringArray = insertatAtBeginning(['a','b','c'],'d')
+// console.log(updatedArray);
+// console.log(stringArray);
