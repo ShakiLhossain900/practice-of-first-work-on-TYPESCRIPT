@@ -1,28 +1,37 @@
 "use strict";
-//primitives
-//basic properties
-let age;
-age = 12;
-let userName;
-userName = "shakil hossain";
-let isInstalled;
-isInstalled = false;
-// let's write complex type
-//array
-let hobbies;
-hobbies = ["Sports", "Cooking"];
-let person;
-person = {
-    name: "Shakil",
-    age: 32,
-};
-// object with array
-let people;
-people = [
-    { name: "Shakil", age: 32 },
-    { name: "shakil2 ", age: 14 },
-];
-//  type inference 
-// union type | ai symbol ta 
-let course = 'react the complete guide';
-course = 2938298;
+// //primitives
+// //basic properties
+// let age: number;
+// age = 12;
+// let userName: string;
+// userName = "shakil hossain";
+// let isInstalled: boolean;
+// isInstalled = false;
+// // let's write complex type
+// //array
+// let hobbies: string[];
+// hobbies = ["Sports", "Cooking"];
+// let person: {
+//   name: string;
+//   age: number;
+// };
+// person = {
+//   name: "Shakil",
+//   age: 32,
+// };
+// // object with array
+// let people: {
+//   name: string;
+//   age: number;
+// }[];
+// people = [
+//   { name: "Shakil", age: 32 },
+//   { name: "shakil2 ", age: 14 },
+// ];
+// //  type inference 
+// // union type | ai symbol ta 
+// let course: string | number = 'react the complete guide';
+// course =2938298
+// type alias 
+let hobby;
+hobby = ['rugby', 'football'];
