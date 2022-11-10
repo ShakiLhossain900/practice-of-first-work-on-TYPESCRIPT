@@ -54,4 +54,9 @@
 // }
 // generics 
 function insertatAtBeginning(array, value) {
+    const newArray = [value, ...array];
+    return newArray;
 }
+const demoArray = [1, 2, 3, 4, 5, 6];
+const updatedArray = insertatAtBeginning(demoArray, -1);
+console.log(updatedArray);
