@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Todos = () => {
+const Todos = (props) => {
     return (
         <ul>
           
