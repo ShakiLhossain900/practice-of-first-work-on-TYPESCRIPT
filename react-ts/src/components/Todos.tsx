@@ -2,9 +2,11 @@ import React from 'react';
 
 const Todos = () => {
     return (
-        <div>
-            
-        </div>
+        <ul>
+           <li>Lerarn react</li>
+           <li>Lerarn TypeScriprt</li> 
+
+        </ul>
     );
 };
 
