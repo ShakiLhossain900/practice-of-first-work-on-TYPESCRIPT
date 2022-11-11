@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Todos = (props: {}) => {
+const Todos = (props: {}) => {    //props is object type
     return (
         <ul>
           {}
