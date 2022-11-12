@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Todos = (props: { items: string[] }) => {    //props is object type
+const Todos: React.FC<{}> = (props) => {    //props is object type   //generic type FC
     return (
         <ul>
-          {}
+          {props.}
         </ul>
     );
 };
