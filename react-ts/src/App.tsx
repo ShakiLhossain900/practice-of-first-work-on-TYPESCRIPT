@@ -1,27 +1,15 @@
-import Todos from './components/Todos';
-import Todo from './models/todo';
+import Todos from "./components/Todos";
+import Todo from "./models/todo";
 
-import './App.css';
-
-
+import "./App.css";
 
 function App() {
-  const todos =[
-    new Todo('Learn react'),
-    new Todo('Leran TypeScript')
-  ]
-
+  const todos = [new Todo("Learn react"), new Todo("Leran TypeScript")];
   return (
-    <div >
-   <Todos items={todos}/>
+    <div>
+      <Todos items={todos} />
     </div>
   );
 }
 
-
 export default App;
-
-
-
-
-
