@@ -15,3 +15,6 @@ function App() {
 }
 
 export default App;
+
+//type script done here if future need that time i will use this typescript 
+//and the typescript now skip
